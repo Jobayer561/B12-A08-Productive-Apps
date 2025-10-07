@@ -5,14 +5,16 @@ import Footer from '../Components/Footer'
 
 const RootLayouts = () => {
   return (
-    <div className=''>
-        <Navbar/>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
 
-        <Outlet/>
+      <div className='flex-grow'>
+        <Outlet />
+      </div>
 
-        <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default RootLayouts

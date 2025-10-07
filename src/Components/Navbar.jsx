@@ -47,7 +47,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden md:flex">
           <ul className=" menu-horizontal px-1 font-semibold gap-4">
             <li>
               <NavLink to="/">Home</NavLink>
@@ -61,12 +61,15 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end ">
-          <div className="btn bg-gradient-to-r from-purple-700 to-purple-400 text-white">
+          <a
+            href="https://github.com/Jobayer561" target='_blank'
+            className="btn bg-gradient-to-r from-purple-700 to-purple-400 text-white"
+          >
             <div>
-                <img src={github} alt="" />
+              <img src={github} alt="" />
             </div>
             Contribute
-          </div>
+          </a>
         </div>
       </div>
     </div>
