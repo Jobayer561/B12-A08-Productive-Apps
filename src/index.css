@@ -1,0 +1,11 @@
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark, cupcake, forest, cyberpunk, synthwave;
+}
+
+.active{
+ color:  #632EE3;  
+ text-decoration: underline;
+  
+}

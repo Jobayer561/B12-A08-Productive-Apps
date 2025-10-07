@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1655199798153-a8f56d8655d2",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Facebook is a social networking platform that connects billions of users around the world. It enables you to share posts, photos, and videos, join communities, follow pages, and stay connected with friends and family. Whether it’s discovering events, exploring trending topics, or using Marketplace for buying and selling, Facebook is designed to help people build meaningful connections and stay informed.",
+    "size": 78,
+    "reviews": 8251934,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 410000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 650000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "5 star", "count": 4800000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1661269124571-63a0a342277d",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Messenger is Meta’s dedicated messaging app that lets you chat, call, and share instantly with friends and contacts. Enjoy high-quality voice and video calls, send photos, videos, and stickers, and even play games together. With cross-platform support and end-to-end encryption, Messenger ensures you stay connected in fun and secure ways wherever you are.",
+    "size": 62,
+    "reviews": 4932741,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 95000 },
+      { "name": "3 star", "count": 230000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1678329885908-85eb768aa61b",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world’s largest video platform where you can watch, upload, and share videos across every category imaginable. Discover music videos, educational content, gaming streams, news, vlogs, and more. Subscribe to creators, comment, and create playlists to personalize your experience. With billions of videos and recommendations powered by AI, YouTube brings the world’s content to your fingertips.",
+    "size": 86,
+    "reviews": 6548901,
+    "ratingAvg": 4.8,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 270000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 4600000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify lets you stream millions of songs, podcasts, and audiobooks from artists all over the world. Create your own playlists, explore curated mixes, and discover new music tailored just for you through smart recommendations. Whether you’re working out, studying, or relaxing, Spotify’s vast library and seamless experience make it the ultimate music companion.",
+    "size": 53,
+    "reviews": 1093845,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 13000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 27000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 960000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1662947368791-8630979e964b",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "description": "Amazon Shopping allows you to explore millions of products across every category — from electronics and books to fashion and groceries. With personalized recommendations, lightning deals, and secure payment options, it delivers a seamless online shopping experience. Track orders in real-time, enjoy fast delivery, and access exclusive Prime benefits all in one app.",
+    "size": 74,
+    "reviews": 2958723,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 98000 },
+      { "name": "2 star", "count": 57000 },
+      { "name": "3 star", "count": 130000 },
+      { "name": "4 star", "count": 620000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1661077150377-26922fb352bc",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a global streaming platform offering thousands of movies, TV series, documentaries, and original shows across every genre. With personalized recommendations, offline downloads, and multi-device access, you can enjoy entertainment anywhere, anytime. Whether you’re into drama, comedy, or thrillers, Netflix brings cinematic storytelling to your screen.",
+    "size": 82,
+    "reviews": 2553841,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 87000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 910000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1641350625112-3b1d73c71418",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "description": "PayPal is a secure and convenient digital payment platform that allows you to send, receive, and manage money worldwide. Whether shopping online, transferring funds, or running a business, PayPal ensures safe transactions with advanced encryption and fraud protection. With a simple interface and global reach, it’s the trusted way to handle your finances online.",
+    "size": 59,
+    "reviews": 893472,
+    "ratingAvg": 4.4,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 19000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 41000 },
+      { "name": "4 star", "count": 230000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1683029096295-7680306aa37d",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a communication platform built for communities and friends. With text, voice, and video channels, it enables users to hang out, collaborate, and share interests. From gaming clans to study groups, Discord fosters interactive experiences with customizable servers, roles, bots, and streaming features that keep conversations lively and organized.",
+    "size": 67,
+    "reviews": 713482,
+    "ratingAvg": 4.6,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 520000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1611162617263-4ec3060a058e",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat is a multimedia messaging app that lets you share moments instantly with friends using photos and short videos called Snaps. With filters, lenses, Bitmojis, and Stories, it encourages creativity and real-time sharing. Snapchat’s ephemeral design keeps conversations fresh while offering privacy and fun interactions.",
+    "size": 71,
+    "reviews": 2595724,
+    "ratingAvg": 4.3,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 82000 },
+      { "name": "2 star", "count": 42000 },
+      { "name": "3 star", "count": 110000 },
+      { "name": "4 star", "count": 620000 },
+      { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1554260570-83dc2f46ef79",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "Uber revolutionizes transportation by connecting riders with drivers at the tap of a button. Whether you need a quick trip across town or a ride to the airport, Uber offers safe, affordable, and convenient travel options. With real-time tracking, cashless payments, and multiple ride choices, it’s the easiest way to get moving.",
+    "size": 55,
+    "reviews": 1840371,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 62000 },
+      { "name": "2 star", "count": 32000 },
+      { "name": "3 star", "count": 92000 },
+      { "name": "4 star", "count": 410000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1694878981766-ed5fa0dfe9eb",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "TikTok is a global platform for creating, sharing, and discovering short-form videos. With powerful editing tools, trending music, and personalized feeds, TikTok inspires creativity and entertainment for millions. Whether you’re dancing, cooking, or showcasing your skills, TikTok connects creators with audiences worldwide in a fun and engaging way.",
+    "size": 91,
+    "reviews": 4325841,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 155000 },
+      { "name": "2 star", "count": 82000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 1020000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1662947036644-ecfde1221ac7",
+    "title": "Microsoft",
+    "companyName": "Microsoft Corporation",
+    "description": "Microsoft’s mobile app suite offers access to essential tools like Word, Excel, PowerPoint, Outlook, and OneDrive in a single platform. Manage documents, collaborate with teams, and stay productive on the go with cloud synchronization and AI-powered features. It’s designed for professionals, students, and businesses to work efficiently anytime, anywhere.",
+    "size": 76,
+    "reviews": 2113742,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 65000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  }
+]
