@@ -4,7 +4,7 @@ import appStore from '../assets/AppStore.png'
 import hero from '../assets/hero.png'
 const Banner = () => {
   return (
-    <div className="">
+    <div className="mb-8">
       <div className=" px-4 max-w-[1440px] mx-auto">
         <h1 className="text-5xl lg:text-7xl font-bold mb-6 text-center">
           We Build <br /> <span className="text-[#632EE3]">Productive</span>{" "}
@@ -28,7 +28,7 @@ const Banner = () => {
           Google Play
         </a>
         <a
-          href="https://play.google.com/store"
+          href="https://www.apple.com/app-store"
           target="_blank"
           className="btn font-semibold"
         >

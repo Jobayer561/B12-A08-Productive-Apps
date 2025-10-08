@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router';
 import github from '../assets/Github.png'
 const Navbar = () => {
   return (
-    <div className="bg-white border-2 border-b-[#E9E9E9]">
+    <div className="bg-white  border-b-[#E9E9E9]">
       <div className="navbar max-w-[1440px] mx-auto">
         <div className=" navbar-start">
           <div className="dropdown">
