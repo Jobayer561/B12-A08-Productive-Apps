@@ -5,13 +5,15 @@ const useApps = ()=>{
     const [apps,setApps]= useState([]);
     const [loading,setLoading] = useState(true);
     const [error,setError] = useState(null);
-    useEffect(()=>{
-         setLoading(true);
-         axios("/AppData.json")
-           .then((data) => setApps(data.data))
-           .catch((err) => setError(err))
-           .finally(() => setLoading(false));
-    },[])
+   useEffect(() => {
+     setLoading(true);
+     setTimeout(() => {
+       axios("/AppData.json")
+         .then((data) => setApps(data.data))
+         .catch((err) => setError(err))
+         .finally(() => setLoading(false));
+     }, 500); 
+   }, []);
     return {apps,loading,error}
 
 }

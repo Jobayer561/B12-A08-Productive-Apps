@@ -8,6 +8,7 @@ import Loading from "../Components/Loading";
 const Apps = () => {
       const {apps, loading} = useApps();
         const [search, setSearch] = useState("");
+         if (loading) return <Loading />;
   const Input = search.trim().toLocaleLowerCase();
   const searchedApps = Input
     ? apps.filter((app) =>

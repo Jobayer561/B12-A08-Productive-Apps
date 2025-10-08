@@ -5,12 +5,15 @@ import useApps from '../Hooks/UseApps';
 import { Link } from 'react-router';
 import AppsCard from '../Components/AppsCard';
 import LoadingSpinner from '../Components/LoadingSpinner';
+import Loading from '../Components/Loading';
 const Home = () => {
   const {apps,loading,error} = useApps();
+   if (loading) return <Loading />;
   const showApps = apps.slice(0,8)
 
   return (
     <>
+    
       <div className="">
         <Banner></Banner>
         <div className="text-center">
