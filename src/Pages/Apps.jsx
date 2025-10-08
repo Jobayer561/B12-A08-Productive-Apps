@@ -3,9 +3,10 @@ import useApps from '../Hooks/UseApps'
 import AppsCard from '../Components/AppsCard';
 import LoadingSpinner from '../Components/LoadingSpinner';
 import { IoIosSearch } from "react-icons/io";
+import Loading from "../Components/Loading";
 
 const Apps = () => {
-      const [apps, loading] = useApps();
+      const {apps, loading} = useApps();
         const [search, setSearch] = useState("");
   const Input = search.trim().toLocaleLowerCase();
   const searchedApps = Input
@@ -13,8 +14,6 @@ const Apps = () => {
         app.title.toLocaleLowerCase().includes(Input)
       )
     : apps;
-      console.log("from apps",apps);
-
   return (
     <div className="max-w-[1440px] mx-auto">
       <div className="text-center">

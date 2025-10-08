@@ -5,9 +5,8 @@ import useApps from '../Hooks/UseApps';
 import { Link } from 'react-router';
 import AppsCard from '../Components/AppsCard';
 import LoadingSpinner from '../Components/LoadingSpinner';
-
 const Home = () => {
-  const [apps,loading,error] = useApps();
+  const {apps,loading,error} = useApps();
   const showApps = apps.slice(0,8)
 
   return (

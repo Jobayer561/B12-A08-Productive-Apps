@@ -41,10 +41,15 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex gap-1">
-            <img className="w-10 h-10" src={logo} alt="" />
-            <Link to="/" className="btn btn-ghost text-purple-700">
-              HERO.IO
+            <Link className='/'>
+              <img className="w-10 h-10" src={logo} alt="" />
             </Link>
+            <div
+              to="/"
+              className="btn btn-ghost bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+            >
+              HERO.IO
+            </div>
           </div>
         </div>
         <div className="navbar-center hidden md:flex">
@@ -62,7 +67,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-end ">
           <a
-            href="https://github.com/Jobayer561" target='_blank'
+            href="https://github.com/Jobayer561"
+            target="_blank"
             className="btn bg-gradient-to-r from-purple-700 to-purple-400 text-white"
           >
             <div>
