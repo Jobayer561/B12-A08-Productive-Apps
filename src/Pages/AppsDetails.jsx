@@ -2,7 +2,13 @@ import React from 'react'
 
 const AppsDetails = () => {
   return (
-    <div>AppsDetails</div>
+    <div className='max-w-[1440px] mx-auto'>
+        <div>
+            <div>
+                <img src="" alt="" />
+            </div>
+        </div>
+    </div>
   )
 }
 

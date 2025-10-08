@@ -4,6 +4,7 @@ import Home from "../Pages/Home"
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import Error from "../Pages/Error";
+import AppsDetails from "../Pages/AppsDetails";
 
 
 const router = createBrowserRouter([
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <RootLayouts />,
     hydrateFallbackElement: <p>Loading...</p>,
-    errorElement:<Error/>,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/installation",
-        element:<Installation/>
+        element: <Installation />,
+      },
+      {
+        path: "/app/:id",
+        element: <AppsDetails />,
       },
     ],
   },
