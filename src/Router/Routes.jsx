@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router"
 import RootLayouts from "../Layout/RootLayouts"
-import Home from "../Pages/Home"
-import Apps from "../Pages/Apps";
-import Installation from "../Pages/Installation";
 import Error from "../Pages/Error";
 import AppsDetails from "../Pages/AppsDetails";
 import Loading from "../Components/Loading";
+import InstallPage from "../Pages/InstallPage";
+import AppsPage from "../Pages/AppsPage";
+import HomePage from "../Pages/HomePage";
 
 
 const router = createBrowserRouter([
@@ -17,15 +17,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <HomePage />,
       },
       {
         path: "/apps",
-        element: <Apps />,
+        element: <AppsPage />,
       },
       {
         path: "/installation",
-        element: <Installation />,
+        element: <InstallPage />,
       },
       {
         path: "/app/:id",

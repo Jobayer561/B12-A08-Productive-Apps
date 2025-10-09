@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Loading = () => {
   return (
-    <div className="flex items-center justify-center h-screen text-4xl font-bold">
+    <div className="flex mt-15 justify-center h-screen text-4xl font-bold">
       <h1>
         L
         <img

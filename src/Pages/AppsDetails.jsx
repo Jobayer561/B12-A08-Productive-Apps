@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../Hooks/UseApps";
 import { BsDownload } from "react-icons/bs";
 import { FaStar } from "react-icons/fa";
 import review from "../assets/icon-review.png";
 import Loading from "../Components/Loading";
-
 import {
   BarChart,
   Bar,
@@ -17,14 +16,20 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import LoadingSpinner from "../Components/LoadingSpinner";
+import { loadInstall, updateList } from "../Utils/ConnectDB";
 const AppsDetails = () => {
   const [isSelected, setIsSelected] = useState(false);
   const { id } = useParams();
   const { apps, loading } = useApps();
-   if (loading)
-     return <Loading/>
+    useEffect(() => {
+      const installedApps = loadInstall();
+      const AlreadyInstalled = installedApps.some((p) => String(p.id) === id);
+      if (AlreadyInstalled) {
+        setIsSelected(true);
+      }
+    },[id]);
+  if (loading) return <Loading />;
   const app = apps.find((p) => String(p.id) === id);
- 
  
   const {
     title,
@@ -37,6 +42,8 @@ const AppsDetails = () => {
     ratings,
     description,
   } = app || {};
+
+
   console.log(title, image);
   return (
     <div className="max-w-[1440px] mx-auto px-6 lg:px-0">
@@ -73,7 +80,10 @@ const AppsDetails = () => {
           </div>
           <button
             disabled={isSelected}
-            onClick={() => setIsSelected(true)}
+            onClick={() => {
+              setIsSelected(true);
+              updateList(app);
+            }}
             className="mt-8 px-6 py-3 rounded-md font-semibold text-white bg-[#00D390] hover:scale-103 transition ease disabled:bg-[#00D390] 
             disabled:text-white disabled:opacity-100"
           >

@@ -6,9 +6,7 @@ import { Link } from 'react-router';
 import AppsCard from '../Components/AppsCard';
 import LoadingSpinner from '../Components/LoadingSpinner';
 import Loading from '../Components/Loading';
-const Home = () => {
-  const {apps,loading,error} = useApps();
-   if (loading) return <Loading />;
+const Home = ({apps,loading}) => {
   const showApps = apps.slice(0,8)
 
   return (
