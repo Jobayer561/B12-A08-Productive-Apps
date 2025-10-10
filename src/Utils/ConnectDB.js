@@ -10,12 +10,19 @@ export const loadInstall = () => {
 export const updateList = (app) => {
   const install = loadInstall();
   try {
-    const isDuplicate = install.some((p) => p.id === app.id);
-    if (isDuplicate) return alert("Already Added in the Install");
+   
     const updateInstall = [...install, app];
     localStorage.setItem("install", JSON.stringify(updateInstall));
   } catch (err) {
     console.log(err);
   }
 };
-
+export const Uninstall = (id) => {
+  const install = loadInstall();
+  try {
+    const updateInstall = install.filter((p) => p.id !== id);
+    localStorage.setItem("install", JSON.stringify(updateInstall));
+  } catch (err) {
+    console.log(err);
+  }
+};

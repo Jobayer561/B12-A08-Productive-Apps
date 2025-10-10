@@ -34,7 +34,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="bg-gradient-to-r from-purple-700 to-purple-400 py-12">
-        <h1 className="text-center font-semibold text-white text-2xl md:text-4xl">
+        <h1 className="text-center font-semibold text-white text-2xl md:text-4xl px-4 lg:px-0">
           Trusted by Millions, Built for You
         </h1>
         <div className="flex flex-col md:flex-row gap-8 md:gap-20 text-center justify-center mt-8">

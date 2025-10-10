@@ -12,7 +12,7 @@ const useApps = () => {
         .then((data) => setApps(data.data))
         .catch((err) => setError(err))
         .finally(() => setLoading(false));
-    }, 200);
+    }, 300);
   }, []);
   return { apps, loading, error };
 };

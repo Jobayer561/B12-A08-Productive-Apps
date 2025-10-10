@@ -11,7 +11,8 @@ const Loading = () => {
           alt="logo"
           className="inline-block w-10 h-10 animate-spin mx-2"
         />
-        ading...
+        ading
+        <span className="loading loading-dots loading-lg ml-2 mt-2"></span>
       </h1>
     </div>
   );

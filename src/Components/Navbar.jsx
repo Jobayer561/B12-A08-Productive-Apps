@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router';
 import github from '../assets/Github.png'
 const Navbar = () => {
   return (
-    <div className="bg-white  border-b-[#E9E9E9]">
-      <div className="navbar max-w-[1440px] mx-auto">
+    <div className="bg-white  border-b-2 border-gray-300">
+      <div className="navbar max-w-[1440px] mx-auto px-4">
         <div className=" navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold"
+              className=" menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold"
             >
               <li>
                 <NavLink to="/">Home</NavLink>
@@ -41,15 +41,15 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex gap-1">
-            <Link className='/'>
-              <img className="w-10 h-10" src={logo} alt="" />
+            <Link className="/">
+              <img className="w-8 h-8 sm:w-10 sm:h-10" src={logo} alt="" />
             </Link>
-            <div
+            <Link
               to="/"
-              className="btn btn-ghost bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+              className="flex items-center text-xl font-semibold ml-2 btn-ghost bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
             >
-              HERO.IO
-            </div>
+              AppHub
+            </Link>
           </div>
         </div>
         <div className="navbar-center hidden md:flex">
