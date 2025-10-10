@@ -32,7 +32,7 @@ const Installation = () => {
       <div className="space-y-6 ">
         <div className="flex flex-col sm:flex-row justify-between py-5 items-center">
           <h1 className="text-3xl font-semibold mb-3 sm:mb-0">
-            Install List{" "}
+            Install List
             <span className="text-sm text-gray-500">
               ({sortedItem.length}) Apps found
             </span>

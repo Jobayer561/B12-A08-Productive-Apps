@@ -22,12 +22,12 @@ const AppsCard = ({app}) => {
 
               <div className="flex justify-between">
                 <div className="flex items-center gap-1 text-[#00D390] px-2 py-2 w-1/4 bg-[#F1F5E8] justify-center font-semibold rounded-md">
-                  {" "}
+                  
                   <FiDownload />
                   {downloads}M
                 </div>
                 <div className="flex items-center gap-1 text-[#FF8811] px-2 py-2 w-1/4 bg-[#FFF0E1] justify-center font-semibold rounded-md">
-                  {" "}
+                  
                   <FaStar />
                   {ratingAvg}
                 </div>
